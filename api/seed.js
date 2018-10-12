@@ -1,4 +1,4 @@
-var express = require('express');
+﻿var express = require('express');
 var router = express.Router();
 var bcrypt = require('bcrypt');
 var _global = require('../global.js');
@@ -321,7 +321,9 @@ var insert_users = [
 
     ['Super', 'Admin', 'admin@fit.hcmus.edu.vn', '01228718705', bcrypt.hashSync('admin', 10), 4], //170
 
-    //['Huỳnh Hữu', 'Nghĩa', '1412572@student.hcmus.edu.vn', '01228718705', bcrypt.hashSync('1353019', 10), 1], //171
+    //['Huỳnh Hữu', 'Nghĩa', '1412572@student.hcmus.edu.vn', '01228718705', bcrypt.hashSync('1353019', 10), 1], //171,
+
+    //['Nguyễn Phi', 'Cường', '1512050@student.hcmus.edu.vn', '01638406801', bcrypt.hashSync('2050', 10), 1], //172
 ];
 //[teacher_id,course_id,teacher_role],
 var insert_teacher_teach_course = [
